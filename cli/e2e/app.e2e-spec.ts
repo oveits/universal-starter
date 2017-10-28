@@ -5,8 +5,7 @@ import { browser, by, element } from 'protractor';
 describe('Blog', () => {
 
   beforeEach(() => {
-    //browser.get('/blog/2017/06/24/consuming-a-restful-web-service-with-angular-4/');
-    browser.get('/');
+    browser.get('/blog/2017/06/24/consuming-a-restful-web-service-with-angular-4/');
   });
 
   const blog_title = element(by.id('blog_title'));
