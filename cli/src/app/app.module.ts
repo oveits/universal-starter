@@ -15,7 +15,8 @@ import { HomeComponent } from './home/home.component';
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full'},
       { path: 'lazy', loadChildren: './lazy/lazy.module#LazyModule'},
-      { path: 'lazy/nested', loadChildren: './lazy/lazy.module#LazyModule'}
+      { path: 'lazy/nested', loadChildren: './lazy/lazy.module#LazyModule'},
+      { path: 'blog/2017/06/13/angular-4-hello-world-with-quickstart', loadChildren: './blog/blog.module#BlogModule'}
     ])
   ],
   providers: [],
