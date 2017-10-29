@@ -1,9 +1,10 @@
+// src/app/blog/blog.module.ts
 import {NgModule, Component} from '@angular/core'
 import {RouterModule} from '@angular/router'
 
 @Component({
   selector: 'blog-view',
-  template: `<h3>i'm a blog</h3>`
+  templateUrl: './blog.component.html'
 })
 export class BlogComponent {}
 
