@@ -29,12 +29,12 @@ export class BlogComponent implements OnInit {
   
 }
 
-import { HttpModule }    from '@angular/http';
+//import { HttpModule }    from '@angular/http'; // moved to src/app/app.module.ts
 
 @NgModule({
   declarations: [BlogComponent],
   imports: [
-    HttpModule,
+    //HttpModule, // moved to src/app/app.module.ts
     RouterModule.forChild([
       { path: '', component: BlogComponent, pathMatch: 'full'}
     ])
